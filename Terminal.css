@@ -21,7 +21,6 @@ Github: https://github.com/zcysxy/Obsidian-Terminal-Theme
   --the-color-rgb: 108, 151, 172;
   --the-background-color: #243f4c;
   --sec-background-color: #1e333e;
-  --ter-background-color: ;
   --red: #f0428a;
   --green: #05d6a2;
   --the-font: Recursive Mono Linear Static, monospace;
@@ -64,19 +63,19 @@ body {
 .theme-dark {
   --background-primary: var(--the-background-color);
   --background-primary-alt: var(--the-background-color);
-  --background-secondary: var(--the-background-color);
-  --background-secondary-alt: var(--the-background-color);
+  --background-secondary: var(--sec-background-color);
+  --background-secondary-alt: var(--sec-background-color);
   --background-modifier-border: var(--the-color);
   --background-modifier-form-field: rgba(0, 0, 0, 0);
   --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0);
   --background-modifier-box-shadow: rgba(0, 0, 0, 0);
   --background-modifier-cover: rgba(0, 0, 0, 0.8);
-  --text-accent: var(--the-color);
-  --text-accent-hover: var(--the-color);
+  --text-accent: var(--green);
+  --text-accent-hover: var(--green);
   --text-normal: var(--the-color);
   --text-muted: var(--the-color);
   --text-muted-rgb: var(--the-color-rgb);
-  --text-faint: var(--the-color);
+  --text-faint: #477085;
   --text-on-accent: var(--the-color);
   --interactive-normal: var(--the-background-color);
   --interactive-hover: var(--the-background-color);
@@ -296,9 +295,11 @@ body {
 .cm-s-obsidian .HyperMD-header {
   padding-bottom: 0;
   line-height: var(--editor-line-height) !important;
+  color: var(--green);
 }
 .cm-header {
   font-size: var(--the-font-size);
+  color: var(--green);
 }
 
 /* Inline Formats */
